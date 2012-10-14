@@ -1,0 +1,107 @@
+Planke 2
+0.0                       !Mach
+0        0       0         !iYsym     iZsym     Zsym
+0.28     0.2     1.4       !Sref      Cref      Bref   reference area, chord, span
+0.038     0.0     0.0       !Xref      Yref      Zref   moment reference location (arb.)
+0.0                       !CDp
+#
+#
+#
+#== surface
+SURFACE
+Fluegel
+16     1.0     32     1.0     !Nchord     Cspace     [Nspan]     [Sspace]
+#
+YDUPLICATE
+0.0
+#
+ANGLE
+0.0
+#
+SCALE
+1.0     1.0     1.0
+#
+TRANSLATE
+0.0     0.0     0.0
+#
+#
+#--- section
+#Xle     Yle     Zle     chord     angle     [Nspan]     [Sspace]
+SECTION
+0.0      0.0     0.0     0.2      0.0
+#
+AFIL
+jwl065.dat
+#
+#--- control
+#Cname     Cgain     Xhinge     HingeVec     SgnDup
+CONTROL
+elevator  -1.0       0.75       0.0 1.0 0.0  1.0
+#
+#--- control
+#Cname     Cgain     Xhinge     HingeVec     SgnDup
+CONTROL
+aileron   1.0       0.75       0.0 1.0 0.0  -1.0
+#
+#
+#--- section
+#Xle     Yle     Zle     chord     angle     [Nspan]     [Sspace]
+SECTION
+0.0      0.7     0.0     0.2       0.0
+#
+AFIL
+jwl065.dat
+#
+#--- control
+#Cname     Cgain     Xhinge     HingeVec     SgnDup
+CONTROL
+elevator  -1.0       0.75       0.0 1.0 0.0  1.0
+#
+#--- control
+#Cname     Cgain     Xhinge     HingeVec     SgnDup
+CONTROL
+aileron   1.0       0.75       0.0 1.0 0.0  -1.0
+#
+#
+#
+#== surface
+SURFACE
+Leitwerk
+8     1.0     16     1.0     !Nchord     Cspace     [Nspan]     [Sspace]
+#
+ANGLE
+0.0
+#
+SCALE
+1.0     1.0     1.0
+#
+TRANSLATE
+0.2     0.0     0.0
+#
+#
+#--- section
+#Xle     Yle     Zle     chord     angle     [Nspan]     [Sspace]
+SECTION
+0.0      0.0     0.0     0.14      0.0
+#
+AFIL
+flat5.dat
+#
+#--- control
+#Cname     Cgain     Xhinge     HingeVec       SgnDup
+CONTROL
+rudder     1.0       0.67        0.075 0.0 0.2  1.0
+#
+#
+#--- section
+#Xle     Yle     Zle     chord     angle     [Nspan]     [Sspace]
+SECTION
+0.08      0.0     0.25    0.10      0.0
+#
+AFIL
+flat5.dat
+#
+#--- control
+#Cname     Cgain     Xhinge     HingeVec       SgnDup
+CONTROL
+rudder     1.0       0.67        0.075 0.0 0.2  1.0

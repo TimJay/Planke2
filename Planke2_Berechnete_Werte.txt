@@ -1,0 +1,41 @@
+Name des Flügels = Planke2.flg
+
+Flächeninhalt (F) = 0,284 m^2
+Flächenbelastung = 1,443661 kg / m^2  = 14,436619 g / dm^2
+Streckung (^) = 7,1
+Bezugsflügeltiefe (lu) = 0,2 m
+aktuelle Luftdichte (p) = 1,225 kg / m^3 in 0 m Höhe
+
+Rücklage des Geometrischen Neutralpunktes (XC) = 0,05 m
+Rücklage des Elliptischen Neutralpunktes (XE) = 0,05 m
+Rücklage des Aerodynamischen Neutralpunktes (XN) = 0,0429 m
+Rücklage des Druckpunktes=Schwerpunkt (XD) = 0,0329 m
+Stabilitätsmaß (SM) = 5 %
+
+Nullauftriebswinkel des gesamten Flügels (A0) = 0,017 Grad
+Nullmomentbeiwert des gesamten Flügels (CM0) = 0,03438
+Auftriebsanstieg des Flügels (dCA) = 4,92517
+Momentanstieg des Flügels (dCM) = 0,174
+
+Auftriebsbeiwert des gesamten Flügels (CA) = 0,68744
+Momentbeiwert des gesamten Flügels (CM) = 0,05866
+Induzierter Gesamtwiderstandsbeiwert (CWI) = 0,02186
+Güte (CWI/CWI ell.) = 1,0316
+Rollmomentbeiwert des gesamten Flügels (CL) = 0
+Induzierter Giermomentbeiwert (CNI) = 0
+Giermomentbeiwert (CN) = 0
+Geschwindigkeit für den Stationären Flug (v_einsatz) = 5,8 m/s
+
+
+Info Normierung !
+Normierter Wert = Orginal Wert * t / 2 / b! 
+
+
+Mit Hilfe von Eppler berechnete Flügelpolare :
+Profil-Widerstandsbeiwert (CWP) = 0,0151
+Induzierter-Gesamtwiderstandsbeiwert (CWI) = 0,02186
+Gesamt-Widerstandsbeiwert (CWG) = 0,03696
+Gleitzahl (E) = 18,60194
+Steigzahl (e) = 15,42321
+Sinkgeschwindigkeit (vs) = 0,312 m/s
+Gleitwinkel = 3,08 Grad
